@@ -1,0 +1,170 @@
+body {
+	overflow-x:hidden;
+	font-family:"Adobe Arabic",sans-serif;
+	background-color: #f1f1f1;
+}
+
+a {
+	transition: all ease-out .2s;
+	text-decoration:none;
+	color:#c48327;
+}
+
+a:hover {
+	transition: all ease-out .2s;
+	text-decoration:none;
+	color:#5491a7;
+}
+
+a:focus {
+	text-decoration: none;
+	color:#5491a7;
+}
+
+.post_comment {
+	text-align: right;
+	font-size: 18px;
+	font-weight: 0;
+	margin-right: 15px;
+}
+
+.user_comment {
+	text-align: right;
+	font-size: 20px;
+	font-weight: 0;
+	color: #c48327;
+	display: inline-block;
+}
+
+.user_comment b {
+	transition: all ease-out 0.3s;
+}
+
+.user_comment b:hover {
+	color: #5491a7;
+	transition: all ease-out 0.3s;
+}
+
+.no_comment {
+	text-align: center;
+	font-size: 21px;
+	font-weight: 0;
+	margin-top: 35px;
+}
+
+hr {
+	border: 1px solid #c8c8c8;
+}
+
+.enter_comment {
+	position: relative;
+	bottom: 12px;
+	font-size: 23px;
+	text-align: right;
+	background-color: #e1e1e1;
+	padding: 10px;
+	font-weight: 600;
+	width: 100%;
+}
+
+.comments {
+	display: none;
+}
+
+.comment_area {
+	width: 100%;
+	position: relative;
+	bottom: 12px;
+	border: 1px solid #d1d1d1;
+	outline: 0;
+	margin-bottom: 0;
+	padding: 5px 7px 5px 5px;
+	transition: all ease-out .3s;
+	font-size: 19px;
+}
+
+.comment_area:focus {
+	box-shadow: 0 0 7px #84d8ff;
+	transition: all ease-out .3s;
+	outline: none;
+	border-color: #35bfff;
+}
+
+.comment_icon {
+	display: inline-block;
+	position: relative;
+	right: 65px;
+}
+
+.delete_comment_btn {
+	font-family: Tahoma;
+	background-color: transparent;
+	border:1px solid #5491a7;
+	outline: none;
+	color:#5491a7;
+	transition: all ease-out .2s;
+	margin: 3px 3px 0 0;
+	font-size: 1em;
+	display: inline;
+	float: left;
+	border-radius: 3px;
+}
+
+.delete_comment_btn:hover {
+	background-color: #5491a7;
+	color: white;
+}
+
+.remove_like_btn {
+	background-color: transparent;
+	color: #5491a7;
+	outline: none;
+	border: 0;
+	font-size: 1.6em;
+	padding: 2px 25px;
+	transition: all ease-out 0.4s;
+}
+
+.remove_like_btn:hover {
+	color: grey;
+	transition: all ease-out 0.4s;
+}
+
+.like_btn {
+	background-color: transparent;
+	color: grey;
+	outline: none;
+	border: 0;
+	font-size: 1.5em;
+	padding: 2px 20px;
+	transition: all ease-out 0.4s;
+}
+
+.like_btn:hover {
+	color: #5491a7;
+	transition: all ease-out 0.4s;
+}
+
+.like_num {
+	display: inline;
+	font-size: 1.6em;
+}
+
+.like_area {
+	margin-top: 4px;
+}
+
+.user_like {
+	float: left;
+	font-size: 18px;
+	padding-right: 0;
+	margin-top: 3px;
+}
+
+.comment_pic {
+	display: inline;
+	float: right;
+	border: 2px solid #e9e9e9;
+	position: relative;
+	right: -10px;
+}
